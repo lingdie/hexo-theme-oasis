@@ -48,13 +48,13 @@ html(lang=config.language)
           div
             div
               a #{new Date().getFullYear()}@ #{config.author}
-              a(href="/atom.xml")
-                img(src="/assets/rss.png")
-            #hexo
-              a Powered by&nbsp
-              a(href="https://hexo.io") Hexo
-              a &nbsp&&nbsp
-              a(href="https://github.com/qiantao94/hexo-theme-oasis") Oasis
+            //-   a(href="/atom.xml")
+            //-     img(src="/assets/rss.png")
+            //- #hexo
+            //-   a Powered by&nbsp
+            //-   a(href="https://hexo.io") Hexo
+            //-   a &nbsp&&nbsp
+            //-   a(href="https://github.com/qiantao94/hexo-theme-oasis") Oasis
   if theme.scripts !== undefined && theme.scripts.length > 0
     //- scripts list from config.yml
     each url in theme.scripts
